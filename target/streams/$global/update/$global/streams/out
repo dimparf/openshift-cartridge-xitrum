@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/stream/dev/xitrum-new-master/}xitrum-new-master...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/stream/dev/e/}e...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scalate][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1307e5f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a98cbd[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.11.2[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.2 in sbt-chain[0m
@@ -1049,20 +1049,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT->com.novus#salat_2.11;1.9.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.novus#salat_2.11;1.9.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.novus#salat_2.11;1.9.8 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.novus/salat_2.11/1.9.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.novus#salat_2.11;1.9.8[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.novus#salat_2.11;1.9.8[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.pom (1.9.8)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.novus#salat_2.11;1.9.8!salat_2.11.pom(pom.original) (919ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.novus/salat_2.11/1.9.8/jars/salat_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/novus/salat_2.11/1.9.8/salat_2.11-1.9.8.jar[0m
-[0m[[0mdebug[0m] [0m	found com.novus#salat_2.11;1.9.8 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.novus#salat_2.11;1.9.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.novus#salat_2.11;1.9.8[0m
+[0m[[0mdebug[0m] [0m	found com.novus#salat_2.11;1.9.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT->com.novus#salat_2.11;1.9.8 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT->com.novus#salat_2.11;1.9.8 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat_2.11;1.9.8->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
@@ -1072,19 +1061,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat_2.11;1.9.8->com.novus#salat-util_2.11;1.9.8 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.novus#salat-util_2.11;1.9.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.novus#salat-util_2.11;1.9.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.novus/salat-util_2.11/1.9.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.novus#salat-util_2.11;1.9.8[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.novus#salat-util_2.11;1.9.8[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.pom (1.9.8)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.novus#salat-util_2.11;1.9.8!salat-util_2.11.pom(pom.original) (1092ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.novus/salat-util_2.11/1.9.8/jars/salat-util_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.jar[0m
-[0m[[0mdebug[0m] [0m	found com.novus#salat-util_2.11;1.9.8 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.novus#salat-util_2.11;1.9.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.novus#salat-util_2.11;1.9.8[0m
+[0m[[0mdebug[0m] [0m	found com.novus#salat-util_2.11;1.9.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat_2.11;1.9.8->com.novus#salat-util_2.11;1.9.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-util_2.11;1.9.8->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-util_2.11;1.9.8->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -1112,19 +1091,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat_2.11;1.9.8->com.novus#salat-core_2.11;1.9.8 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.novus#salat-core_2.11;1.9.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.novus#salat-core_2.11;1.9.8 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.novus/salat-core_2.11/1.9.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.novus#salat-core_2.11;1.9.8[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.novus#salat-core_2.11;1.9.8[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.pom (1.9.8)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.novus#salat-core_2.11;1.9.8!salat-core_2.11.pom(pom.original) (1011ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.novus/salat-core_2.11/1.9.8/jars/salat-core_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.jar[0m
-[0m[[0mdebug[0m] [0m	found com.novus#salat-core_2.11;1.9.8 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.novus#salat-core_2.11;1.9.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.novus#salat-core_2.11;1.9.8[0m
+[0m[[0mdebug[0m] [0m	found com.novus#salat-core_2.11;1.9.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat_2.11;1.9.8->com.novus#salat-core_2.11;1.9.8 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-core_2.11;1.9.8->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-core_2.11;1.9.8->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -1135,19 +1104,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-core_2.11;1.9.8->org.mongodb#casbah-core_2.11;2.7.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.11;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-core_2.11;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/casbah-core_2.11/2.7.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-core_2.11;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-core_2.11;2.7.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.pom (2.7.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;2.7.1!casbah-core_2.11.pom(pom.original) (1034ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/casbah-core_2.11/2.7.1/jars/casbah-core_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-core_2.11;2.7.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-core_2.11;2.7.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah-core_2.11;2.7.1[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-core_2.11;2.7.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-core_2.11;1.9.8->org.mongodb#casbah-core_2.11;2.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.7.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.7.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -1156,19 +1115,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.7.1->org.mongodb#casbah-commons_2.11;2.7.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.11;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-commons_2.11;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/casbah-commons_2.11/2.7.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-commons_2.11;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-commons_2.11;2.7.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.pom (2.7.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;2.7.1!casbah-commons_2.11.pom(pom.original) (923ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/casbah-commons_2.11/2.7.1/jars/casbah-commons_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-commons_2.11;2.7.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-commons_2.11;2.7.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah-commons_2.11;2.7.1[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-commons_2.11;2.7.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.7.1->org.mongodb#casbah-commons_2.11;2.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.7.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.7.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -1177,19 +1126,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.7.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.11;1.0.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.github.nscala-time/nscala-time_2.11/1.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.nscala-time#nscala-time_2.11;1.0.0[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.github.nscala-time#nscala-time_2.11;1.0.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom (1.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.pom(pom.original) (997ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.github.nscala-time/nscala-time_2.11/1.0.0/jars/nscala-time_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.github.nscala-time#nscala-time_2.11;1.0.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.nscala-time#nscala-time_2.11;1.0.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.github.nscala-time#nscala-time_2.11;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.github.nscala-time#nscala-time_2.11;1.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.7.1->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -1215,36 +1154,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.7.1->org.mongodb#mongo-java-driver;2.12.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.12.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/mongo-java-driver/2.12.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#mongo-java-driver;2.12.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#mongo-java-driver;2.12.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.pom (2.12.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.12.1!mongo-java-driver.pom(pom.original) (907ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/mongo-java-driver/2.12.1/jars/mongo-java-driver.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.12.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;2.12.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#mongo-java-driver;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.12.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.7.1->org.mongodb#mongo-java-driver;2.12.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.7.1->org.mongodb#casbah-query_2.11;2.7.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.11;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-query_2.11;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/casbah-query_2.11/2.7.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-query_2.11;2.7.1[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-query_2.11;2.7.1[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.pom (2.7.1)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;2.7.1!casbah-query_2.11.pom(pom.original) (931ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.mongodb/casbah-query_2.11/2.7.1/jars/casbah-query_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-query_2.11;2.7.1 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-query_2.11;2.7.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah-query_2.11;2.7.1[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-query_2.11;2.7.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.7.1->org.mongodb#casbah-query_2.11;2.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;2.7.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;2.7.1->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -1267,19 +1186,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-core_2.11;1.9.8->org.json4s#json4s-native_2.11;3.2.9 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.11;3.2.9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json4s#json4s-native_2.11;3.2.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.json4s/json4s-native_2.11/3.2.9/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.json4s#json4s-native_2.11;3.2.9[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.json4s#json4s-native_2.11;3.2.9[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.pom (3.2.9)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-native_2.11;3.2.9!json4s-native_2.11.pom(pom.original) (926ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/org.json4s/json4s-native_2.11/3.2.9/jars/json4s-native_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.jar[0m
-[0m[[0mdebug[0m] [0m	found org.json4s#json4s-native_2.11;3.2.9 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json4s#json4s-native_2.11;3.2.9[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.json4s#json4s-native_2.11;3.2.9[0m
+[0m[[0mdebug[0m] [0m	found org.json4s#json4s-native_2.11;3.2.9 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.novus#salat-core_2.11;1.9.8->org.json4s#json4s-native_2.11;3.2.9 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.11;3.2.9->org.scala-lang#scala-library;2.11.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-native_2.11;3.2.9->org.scala-lang#scala-library;2.11.2 [compile->master(*)][0m
@@ -5608,54 +5517,14 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.0!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/novus/salat-util_2.11/1.9.8/salat-util_2.11-1.9.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.novus#salat-util_2.11;1.9.8!salat-util_2.11.jar (1863ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/novus/salat-core_2.11/1.9.8/salat-core_2.11-1.9.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.novus#salat-core_2.11;1.9.8!salat-core_2.11.jar (2767ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.7.1/casbah-core_2.11-2.7.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;2.7.1!casbah-core_2.11.jar (1580ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.9/json4s-native_2.11-3.2.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-native_2.11;3.2.9!json4s-native_2.11.jar (1044ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.7.1/casbah-commons_2.11-2.7.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;2.7.1!casbah-commons_2.11.jar (1263ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.7.1/casbah-query_2.11-2.7.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;2.7.1!casbah-query_2.11.jar (1609ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar (1219ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.12.1/mongo-java-driver-2.12.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.12.1!mongo-java-driver.jar (1822ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.novus#salat-util_2.11;1.9.8!salat-util_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.novus#salat-core_2.11;1.9.8!salat-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-core_2.11;2.7.1!casbah-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-native_2.11;3.2.9!json4s-native_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-commons_2.11;2.7.1!casbah-commons_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-query_2.11;2.7.1!casbah-query_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.12.1!mongo-java-driver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] tv.cntt#xgettext_2.11;1.1!xgettext_2.11.jar[0m
@@ -5664,21 +5533,21 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mojolly.scalate#scalate-generator_2.11;0.5.0!scalate-generator_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.0!scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 20398ms :: artifacts dl 13300ms[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT compile produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT runtime produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT test produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT provided produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT optional produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT compile-internal produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT runtime-internal produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT test-internal produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6814ms :: artifacts dl 654ms[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT compile produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT runtime produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT test produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT provided produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT optional produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT compile-internal produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT runtime-internal produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT test-internal produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-test-internal.xml[0m
 [0m[[0mdebug[0m] [0mcircular dependency found: org.scala-lang#scala-compiler;2.11.1->org.scala-lang.modules#scala-xml_2.11;1.0.2->...[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT plugin produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT sources produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT docs produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT pom produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT scala-tool produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT scalate produced in /home/stream/dev/xitrum-new-master/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-scalate.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (20398ms resolve - 13300ms download)[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT plugin produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT sources produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT docs produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT pom produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT scala-tool produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for tv.cntt#xitrum-new_2.11;1.0-SNAPSHOT scalate produced in /home/stream/dev/e/target/resolution-cache/reports/tv.cntt-xitrum-new_2.11-scalate.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (6814ms resolve - 654ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

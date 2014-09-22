@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scalate"
-		date="20140912081936"/>
+		date="20140922044446"/>
 	<dependencies>
 		<module organisation="tv.cntt" name="xgettext_2.11">
 			<revision name="1.1" status="release" pubdate="20140711102054" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xitrum-framework/scala-xgettext" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">

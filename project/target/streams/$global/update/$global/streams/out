@@ -1,34 +1,22 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/stream/dev/xitrum-new-master/project/}xitrum-new-master-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#xitrum-new-master-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/stream/dev/e/project/}e-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#e-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml (2.5.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0!ivy.xml(ivy.original) (1047ms)[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbteclipse#sbteclipse-core;2.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-core;2.5.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: found md file for com.typesafe.sbteclipse#sbteclipse-core;2.5.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml (2.5.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.5.0!ivy.xml(ivy.original) (1094ms)[0m
-[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-core;2.5.0 in typesafe-ivy-releases[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-core;2.5.0[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.typesafe.sbteclipse#sbteclipse-core;2.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.sbteclipse#sbteclipse-core;2.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.0.2 {compile=[default(compile)]}[0m
@@ -68,35 +56,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.mpeltonen#sbt-idea;1.6.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for com.github.mpeltonen#sbt-idea;1.6.0[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for com.github.mpeltonen#sbt-idea;1.6.0[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.github.mpeltonen/sbt-idea/scala_2.10/sbt_0.13/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.mpeltonen#sbt-idea;1.6.0[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.github.mpeltonen#sbt-idea;1.6.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom (1.6.0)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.pom(pom.original) (958ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/1.6.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.github.mpeltonen/sbt-idea/1.6.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.6.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.mpeltonen/sbt-idea/1.6.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/com.github.mpeltonen/sbt-idea/1.6.0/jars/sbt-idea.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.6.0/sbt-idea-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea/1.6.0/sbt-idea-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.6.0 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.github.mpeltonen#sbt-idea;1.6.0[0m
+[0m[[0mdebug[0m] [0m	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -108,47 +75,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving tv.cntt#xitrum-package;1.8 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: tv.cntt#xitrum-package;1.8 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/tv.cntt/xitrum-package/scala_2.10/sbt_0.13/1.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/tv.cntt/xitrum-package/scala_2.10/sbt_0.13/1.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for tv.cntt#xitrum-package;1.8[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/tv.cntt/xitrum-package/scala_2.10/sbt_0.13/1.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/tv.cntt/xitrum-package/scala_2.10/sbt_0.13/1.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for tv.cntt#xitrum-package;1.8[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/tv.cntt/xitrum-package/scala_2.10/sbt_0.13/1.8/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for tv.cntt#xitrum-package;1.8[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for tv.cntt#xitrum-package;1.8[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.pom (1.8)[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] tv.cntt#xitrum-package;1.8!xitrum-package.pom(pom.original) (1116ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/tv.cntt/xitrum-package/1.8/jars/xitrum-package.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/tv.cntt/xitrum-package/1.8/jars/xitrum-package.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/tv.cntt/xitrum-package/1.8/jars/xitrum-package.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/tv.cntt/xitrum-package/1.8/jars/xitrum-package.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/stream/.ivy2/local/tv.cntt/xitrum-package/1.8/jars/xitrum-package.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/tv/cntt/xitrum-package/1.8/xitrum-package-1.8.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/tv/cntt/xitrum-package/1.8/xitrum-package-1.8.jar[0m
-[0m[[0mdebug[0m] [0m	found tv.cntt#xitrum-package;1.8 in public[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: tv.cntt#xitrum-package;1.8[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: tv.cntt#xitrum-package;1.8[0m
+[0m[[0mdebug[0m] [0m	found tv.cntt#xitrum-package;1.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.mojolly.scalate#xsbt-scalate-generator;0.5.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.mojolly.scalate#xsbt-scalate-generator;0.5.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.mojolly.scalate#xsbt-scalate-generator;0.5.0[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: com.mojolly.scalate#xsbt-scalate-generator;0.5.0[0m
 [0m[[0mdebug[0m] [0m	found com.mojolly.scalate#xsbt-scalate-generator;0.5.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -170,24 +116,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -209,32 +155,32 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71f8e7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@168d01f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.5 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.5 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.5[0m
@@ -780,11 +726,11 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -812,26 +758,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -1152,10 +1098,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -1177,26 +1123,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0->com.typesafe.sbteclipse#sbteclipse-core;2.5.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-core_2.10;7.0.2 [compile->runtime][0m
@@ -1224,26 +1170,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.2->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.5.0->org.scalaz#scalaz-effect_2.10;7.0.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.github.mpeltonen#sbt-idea;1.6.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->tv.cntt#xitrum-package;1.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->com.mojolly.scalate#xsbt-scalate-generator;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.5 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -1564,18 +1510,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-lang#scala-library;2.10.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.5->org.scala-sbt#interface;0.13.5 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#xitrum-new-master-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#e-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -1593,8 +1539,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
@@ -1609,38 +1555,18 @@
 [0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#xitrum-new-master-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#e-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-plugin.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0!sbteclipse-plugin.jar (1310ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/com/github/mpeltonen/sbt-idea_2.10_0.13/1.6.0/sbt-idea-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar (2529ms)[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/tv/cntt/xitrum-package_2.10_0.13/1.8/xitrum-package-1.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] tv.cntt#xitrum-package;1.8!xitrum-package.jar (1476ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-plugin;2.5.0!sbteclipse-plugin.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] tv.cntt#xitrum-package;1.8!xitrum-package.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.mojolly.scalate#xsbt-scalate-generator;0.5.0!xsbt-scalate-generator.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar ...[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: downloading http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.sbteclipse/sbteclipse-core/scala_2.10/sbt_0.13/2.5.0/jars/sbteclipse-core.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-core;2.5.0!sbteclipse-core.jar (2957ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.sbteclipse#sbteclipse-core;2.5.0!sbteclipse-core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.2!scalaz-core_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.2!scalaz-effect_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
@@ -1693,19 +1619,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 14517ms :: artifacts dl 8478ms[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT compile produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT runtime produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT test produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT provided produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT optional produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT compile-internal produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT runtime-internal produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT test-internal produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT plugin produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT sources produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT docs produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT pom produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#xitrum-new-master-build;0.1-SNAPSHOT scala-tool produced in /home/stream/dev/xitrum-new-master/project/target/resolution-cache/reports/default-xitrum-new-master-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (14517ms resolve - 8478ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5218ms :: artifacts dl 456ms[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT compile produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT runtime produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT test produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT provided produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT optional produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT compile-internal produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT runtime-internal produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT test-internal produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT plugin produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT sources produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT docs produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT pom produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#e-build;0.1-SNAPSHOT scala-tool produced in /home/stream/dev/e/project/target/resolution-cache/reports/default-e-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (5218ms resolve - 456ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

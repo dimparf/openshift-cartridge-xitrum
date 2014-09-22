@@ -1,8 +1,8 @@
 [0m[[0minfo[0m] [0mRunning quickstart.Boot [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
-[0m[[0mdebug[0m] [0m	/home/stream/dev/xitrum-new-master/target/scala-2.11/classes[0m
-[0m[[0mdebug[0m] [0m	/home/stream/dev/xitrum-new-master/config[0m
+[0m[[0mdebug[0m] [0m	/home/stream/dev/e/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/home/stream/dev/e/config[0m
 [0m[[0mdebug[0m] [0m	/home/stream/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.2.jar[0m
 [0m[[0mdebug[0m] [0m	/home/stream/.ivy2/cache/tv.cntt/xitrum_2.11/jars/xitrum_2.11-3.18.jar[0m
 [0m[[0mdebug[0m] [0m	/home/stream/.ivy2/cache/org.slf4s/slf4s-api_2.11/jars/slf4s-api_2.11-1.7.7.jar[0m
@@ -91,4 +91,8 @@
 [0m[[0mdebug[0m] [0m	/home/stream/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.2.9.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread xitrum-akka.actor.default-dispatcher-6 to terminate.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread xitrum-akka.actor.default-dispatcher-5 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread xitrum-akka.actor.default-dispatcher-5 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread xitrum-akka.actor.default-dispatcher-2 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread xitrum-akka.actor.default-dispatcher-2 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread nioEventLoopGroup-4-1 to terminate.[0m
