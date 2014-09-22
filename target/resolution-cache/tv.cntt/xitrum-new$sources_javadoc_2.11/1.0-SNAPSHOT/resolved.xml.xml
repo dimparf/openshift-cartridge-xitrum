@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="tv.cntt"
+		module="xitrum-new$sources_javadoc_2.11"
+		revision="1.0-SNAPSHOT"
+		status="integration"
+		publication="20140912080818"
+	/>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="scalate" visibility="private" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.2/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="xitrum_2.11" rev="3.18" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="xitrum_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="xitrum_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4s" name="slf4s-api_2.11" rev="1.7.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="slf4s-api_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4s-api_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4j-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="io.netty" name="netty-all" rev="4.0.23.Final" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="netty-all" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="netty-all" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="io.netty" name="netty-tcnative" rev="1.1.30.Fork2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="netty-tcnative" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="netty-tcnative" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.javassist" name="javassist" rev="3.18.2-GA" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="javassist" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="javassist" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.3.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="akka-actor_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-actor_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe" name="config" rev="1.2.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="config" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="config" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-cluster_2.11" rev="2.3.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="akka-cluster_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-cluster_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-remote_2.11" rev="2.3.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="akka-remote_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-remote_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="io.netty" name="netty" rev="3.8.0.Final" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="netty" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="netty" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="protobuf-java" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="protobuf-java" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.uncommons.maths" name="uncommons-maths" rev="1.2.2a" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="uncommons-maths" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="uncommons-maths" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-contrib_2.11" rev="2.3.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="akka-contrib_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-contrib_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-persistence-experimental_2.11" rev="2.3.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="akka-persistence-experimental_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-persistence-experimental_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.iq80.leveldb" name="leveldb" rev="0.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldb" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldb" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.iq80.leveldb" name="leveldb-api" rev="0.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldb-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldb-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.google.guava" name="guava" rev="12.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="guava" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.google.code.findbugs" name="jsr305" rev="1.3.9" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jsr305" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jsr305" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-all" rev="1.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldbjni-all" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldbjni-all" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni" rev="1.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldbjni" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldbjni" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.hawtjni" name="hawtjni-runtime" rev="1.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="hawtjni-runtime" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="hawtjni-runtime" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-osx" rev="1.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldbjni-osx" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldbjni-osx" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-linux32" rev="1.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldbjni-linux32" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldbjni-linux32" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-linux64" rev="1.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldbjni-linux64" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldbjni-linux64" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-win32" rev="1.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldbjni-win32" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldbjni-win32" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.fusesource.leveldbjni" name="leveldbjni-win64" rev="1.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="leveldbjni-win64" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="leveldbjni-win64" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.typesafe.akka" name="akka-slf4j_2.11" rev="2.3.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="akka-slf4j_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="akka-slf4j_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="glokka_2.11" rev="2.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="glokka_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="glokka_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.beachape.filemanagement" name="schwatcher_2.11" rev="0.1.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="schwatcher_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="schwatcher_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.netflix.rxjava" name="rxjava-scala" rev="0.18.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="rxjava-scala" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="rxjava-scala" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.netflix.rxjava" name="rxjava-core" rev="0.18.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="rxjava-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="rxjava-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="sclasner_2.11" rev="1.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="sclasner_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="sclasner_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="chill-scala_2.11" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="chill-scala_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="chill-scala_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.esotericsoftware.kryo" name="kryo" rev="2.21" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="kryo" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="kryo" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.esotericsoftware.reflectasm" name="reflectasm" rev="1.07" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="reflectasm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="reflectasm" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.ow2.asm" name="asm" rev="4.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="asm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="asm" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.esotericsoftware.minlog" name="minlog" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="minlog" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="minlog" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.objenesis" name="objenesis" rev="1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="objenesis" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="objenesis" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.json4s" name="json4s-jackson_2.11" rev="3.2.10" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="json4s-jackson_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="json4s-jackson_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.json4s" name="json4s-core_2.11" rev="3.2.10" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="json4s-core_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="json4s-core_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.json4s" name="json4s-ast_2.11" rev="3.2.10" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="json4s-ast_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="json4s-ast_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.thoughtworks.paranamer" name="paranamer" rev="2.6" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="paranamer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="paranamer" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-databind" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jackson-databind" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.3.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-annotations" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jackson-annotations" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jackson-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jackson-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="scaposer_2.11" rev="1.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scaposer_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scaposer_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.11" rev="1.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)">
+			<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-parser-combinators_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.3.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-lang3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-lang3" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="rhinocoffeescript" rev="1.7.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="rhinocoffeescript" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="rhinocoffeescript" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.mozilla" name="rhino" rev="1.7R4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="rhino" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="rhino" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="nl.grons" name="metrics-scala_2.11" rev="3.2.1_a2.3" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="metrics-scala_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="metrics-scala_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.codahale.metrics" name="metrics-core" rev="3.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="metrics-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="metrics-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.codahale.metrics" name="metrics-healthchecks" rev="3.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="metrics-healthchecks" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="metrics-healthchecks" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.codahale.metrics" name="metrics-json" rev="3.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="metrics-json" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="metrics-json" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scalap" rev="2.11.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scalap" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalap" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-compiler" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scala-tool->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.2/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);plugin->default(compile);scala-tool->default(compile)">
+			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-xml_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.webjars" name="jquery" rev="2.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jquery" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jquery" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.webjars" name="jquery-validation" rev="1.13.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jquery-validation" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jquery-validation" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.webjars" name="sockjs-client" rev="0.3.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="sockjs-client" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="sockjs-client" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.webjars" name="swagger-ui" rev="2.0.22" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="swagger-ui" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="swagger-ui" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.webjars" name="d3js" rev="3.4.11" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="d3js" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="d3js" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="ch.qos.logback" name="logback-classic" rev="1.1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="logback-classic" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="logback-classic" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="ch.qos.logback" name="logback-core" rev="1.1.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="logback-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="logback-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.janino" name="janino" rev="2.7.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="janino" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="janino" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.codehaus.janino" name="commons-compiler" rev="2.7.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="commons-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="commons-compiler" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.webjars" name="bootstrap" rev="3.2.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="bootstrap" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="bootstrap" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="xitrum-scalate_2.11" rev="2.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="xitrum-scalate_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="xitrum-scalate_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scalatra.scalate" name="scalate-core_2.11" rev="1.7.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scalate->default(compile)">
+			<artifact name="scalate-core_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalate-core_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scalatra.scalate" name="scalate-util_2.11" rev="1.7.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile);scalate->default(compile)">
+			<artifact name="scalate-util_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalate-util_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scalatra.scalate" name="scalamd_2.11" rev="1.6.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="scalamd_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalamd_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="tv.cntt" name="xgettext_2.11" rev="1.1" transitive="false" conf="plugin->default(compile)">
+			<artifact name="xgettext_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="xgettext_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.1" transitive="false" conf="plugin->default(compile)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-compiler" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.1" transitive="false" conf="plugin->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.1/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.1" transitive="false" conf="plugin->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.1/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.11" rev="1.0.1" transitive="false" conf="plugin->default(compile);scalate->default(compile)">
+			<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-parser-combinators_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="jline" name="jline" rev="2.12" transitive="false" conf="scala-tool->default(compile)">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jline" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.mojolly.scalate" name="scalate-generator_2.11" rev="0.5.0" transitive="false" conf="scalate->default(compile)">
+			<artifact name="scalate-generator_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scalate-generator_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.0" transitive="false" conf="scalate->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.0/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.1" transitive="false" conf="scalate->default(compile)">
+			<artifact name="slf4j-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="slf4j-api" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang.modules" name="scala-xml_2.11" rev="1.0.1" transitive="false" conf="scalate->default(compile)">
+			<artifact name="scala-xml_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-xml_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.0" transitive="false" conf="scalate->default(compile)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-compiler" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.0" transitive="false" conf="scalate->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.11.0/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="scala-reflect" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+	</dependencies>
+</ivy-module>
