@@ -1,6 +1,6 @@
 Init Xitrum Openshift cartrige (use DIY).
 
-Status: project is running, sbt build on Openshift, but Xitrum is not bind to port 8000.
+Status: project in progress, sbt build on Openshift and run.
 
 The OpenShift `diy` cartridge documentation can be found at:
 
